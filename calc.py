@@ -1,9 +1,4 @@
-import sys
-
-if sys.version_info[0] == 3:
-    import tkinter as tk
-else:
-    import Tkinter as tk
+import tkinter as tk
 
 # Main window
 root = tk.Tk()
